@@ -1,0 +1,15 @@
+
+login menggunakan akun docker ke https://labs.play-with-docker.com
+
+buat instance
+
+clone repo :
+git clone https://github.com/xxxxx
+
+masuk ke path direktori menggunakan "cd"
+
+build image
+docker build -t app-example:latest .
+
+jalankan docker-compose
+docker-compose up
